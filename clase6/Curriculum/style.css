@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;/*SE ELIGE LA FAMILIA DE FUENTES EN EL BODY*/
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* Altura del contenedor igual a la altura de la ventana del navegador */
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen img {
+    max-width: 10%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+h1{
+    text-align: center;/*CENTRAMOS EL H1 ESTABLECIMOS SU COLOR DE FONDO Y FUENTE*/
+    background-color: #C4C4C4;
+    color:#005677;
+}
+
+h2{/*DIMOS COLOR DE FONDO Y FUENTE A TODOS LOS H2*/
+    background-color: #C4C4C4;
+    color:#005677;
+}
+
+.lista1{/*LA LISTA 1 TIENE ESTILO CURSIVA*/
+    font-style: italic;
+}
+/*QUITAMOS LOS PUNTITOS A LA LISTA 2 Y 3*/
+.lista2, .lista3{
+    list-style-type: none;
+}
+
+
+/*CENTRAMOS LOS ELEMENTOS DEL FOOTER, APLICAMOS COLOR DE FONDO Y LE DIMOS RELLENO PARA QUE SEA MAS GORDITO*/
+footer{
+    text-align: center;
+    background-color: #005677;
+    padding: 10px;
+}
+
+/*CON DISPLAY PONEMOS EN LINEA EL TEXTO CON RESPECTO A LOS ICONOS Y LE DAMOS EL COLOR AL TEXTO*/
+p{
+    display: inline;
+    color:white
+}

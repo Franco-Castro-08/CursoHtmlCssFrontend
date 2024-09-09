@@ -1,0 +1,16 @@
+/*Para eso, debemos mover el <div> con clase "amarillo" 20px desde arriba en relación a su posición original
+Deberemos asignarle la propiedad z-index con valor 10 al <div> con clase "rojo". Recordemos declarar también la propiedad position:relative —sin declarar esto, no podemos utilizar z-index—.*/
+.amarillo {
+position: relative;
+background-color: yellow;
+top: 20px;
+z-index: 20;
+width: 50%;
+height: 130px;
+}
+
+.rojo {
+position: relative;
+background-color: red;
+z-index: 10;
+}

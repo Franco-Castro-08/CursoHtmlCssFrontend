@@ -1,0 +1,68 @@
+.div1{
+ /*TAMAÑO DEL CONTENIDO*/
+    width: 120px;/*SI NO SE PROPORCIONA TOMA EL 100% DEL ANOCHO DEL DOCUMENTO*/
+    height: 130px;/*SI NO SE PROPORCIONA TOMA LA ALTURA DEL CONTENIDO*/
+
+    padding: 12px;/*EL RELLENO SE APLICA A LOS 4 LADOS*/
+    /*padding: 12px 20px;/*EL PRIMER VALOR VA A INDICAR EL PADDING DE ARRIBA Y ABAJO Y EL SEGUNDO VALOR VA A INDICAR AL DE LA IZQUIERDA Y DERECHA*/
+    /*padding: 12px 20px 18px;/*EL PRIMER VALOR PARA ARRIBA, EL SEGUNDO VALOR PARA IZQUIERDA Y DERECHA Y EL TERCER VALOR PARA ABAJO*/
+    /*padding: 12px 15px 18px 21px;/*TOMA LOS VALORES EN SENTIDO DE LAS AGUJAS DEL RELOJ*/
+
+    /*PROPIEDADES ESPECIFICAS*/
+    /*padding-top: 15px;/*ARRIBA*/
+    /*padding-right: 20px;/*DERECHA*/
+    /*padding-bottom: 18px;/*ABAJO*/
+    /*padding-left: 21px;/*IZQUIERDA*/
+
+    /*PROPIEDAD BORDER TIENE ESTILO DE LINEA GROSOR Y COLOR*/
+    border: double 5px red;/*EL ESTILO DE LINEA PUEDE SER SOLID DOTTED DASHED O DOUBLE*/
+
+    /*PROPIEDAD MARGIN SE USA PARA SEPARAR UNA CAJA DE OTRA O UN ELEMENTO DE OTRO*/
+    /*margin: 15px;/*APLICA EL VALOR A TODOS LOS LADOS*/
+    /*margin: 20px 15px;/*PRIMER VALOR APLICA ARRIBA Y ABAJO, SEGUNDO VALOR APLIC IZQUIERDA Y DERECHA*/
+    /*margin: 20px 15px 30px;/*PRIMER VALOR ARRIBA, SEGUNDO VALOR IZQUIERDA Y DERECHA, TERCER VALOR ABAJO*/
+    /*margin: 20px 15px 30px 25px;/*TOMA LOS VALORES EN EL SENTIDO DE LAS AGUJAS DEL RELOJ*/
+
+    /*TAMBIEN PUEDO APLICAR PROPIEDAD ESPECIFICA*/
+    margin-bottom: 30px;/*APLICA PROPIEDAD ESPECIFICA DE SEPARACION ABAJO*/
+
+    /*CALCULANDO EL ANCHO Y EL ALTO CON BOX-SIZING*/
+    /*box-sizing: content-box;/*POR DEFECTO ESTABLECE QUE EL ANCHO Y ALTO QUE SE DEFINE EN EL CONTENIDO*/
+    box-sizing: border-box;/*TOMA ADEMAS DEL CONTENIDO EL TAMAÑO DEL PADDING Y DEL BORDE*/
+
+    /*VALORES DE POSICION: STATIC, RELATIVE, FIXED, ABSOLUTE Y STICKY*/
+
+    position: relative;
+    left: 20px;
+    top:20px;
+}
+
+.div2{
+    background-color: blue;
+    color: antiquewhite;
+    width: 120px;
+    height: 130px;
+    padding:12px;
+    border: solid 5px white;
+
+   /* position: absolute;
+    right: 30px;
+    bottom: 20px;*/
+}
+
+.boton{
+    background-color:green;
+    color: white;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.menu{
+    background-color: fuchsia;
+    color: white;
+    position: sticky;
+    top: 15px;
+}
+
+

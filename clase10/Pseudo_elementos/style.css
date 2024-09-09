@@ -1,0 +1,44 @@
+/* Estilos basicos */
+
+.box{
+    width: 200px;
+    height: 100px;
+    border: 2px solid #007bff;
+    padding: 10px;
+    position: relative; /*necesario para los pseudoelementos*/
+}
+
+/* agregar contenido antes del contenido*/
+.box::before{
+    content: "Antes del contenido real ";
+    font-weight: bold;
+}
+
+.box::after{
+    content: "Despues del contenido ";
+    font-weight: bold;
+}
+
+/* con firstline estilizo la primera linea de un parrafo */
+.parrafo{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.parrafo::first-line{
+    color:#007bff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.parrafo2::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+
+.parrafo3::selection{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+}
+

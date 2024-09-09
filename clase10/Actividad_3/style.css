@@ -1,0 +1,35 @@
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* interaccion con pseudoselectores */
+
+input:hover, button:focus{
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0);
+}
+
+button:active{
+    background-color: #0056b3;
+    color: #fff;
+}

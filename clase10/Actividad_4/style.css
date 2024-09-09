@@ -1,0 +1,30 @@
+/*nthchild() estilos especificos a elementos en ciertas posiciones*/
+.lista1 li:nth-child(even){
+    background-color: blueviolet;
+}
+
+.lista1 li:nth-child(odd){
+    background-color: blue;
+}
+
+/* primer elemento de un padre*/
+.lista2 li:first-child{
+    background-color: cadetblue;
+}
+
+/* ultimo elemento de un padre*/
+.lista3 li:last-child{
+    background-color: chocolate;
+}
+
+/* estilos para todos lo elementos*/
+.lista3 li{
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+}
+
+/* estilos para todos lo elementos menos el primero*/
+.lista3 li:not(:first-child){
+    background-color: #f2f2f2;
+}
